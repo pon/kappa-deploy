@@ -8,22 +8,6 @@
           "maxBytes": 10000000
         }
       }
-    },
-    {
-      "host": "0.0.0.0",
-      "port": "8443",
-      "options": {
-        "tls": {
-          "requestCert": true,
-          "rejectUnauthorized": false,
-          "key": "file:./pathtokey",
-          "cert": "file:./pathtocert",
-          "ca": "file:./pathtoca"
-        },
-        "payload": {
-          "maxBytes": 10000000
-        }
-      }
     }
   ],
   "plugins": {
