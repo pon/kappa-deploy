@@ -2,9 +2,9 @@
   "name": "kappa-deploy",
   "version": "0.0.0",
   "description": "Simple package to deploy https://github.com/krakenjs/kappa",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "kappa -c config.json"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pon/kappa-deploy/issues"
   },
-  "homepage": "https://github.com/pon/kappa-deploy"
+  "homepage": "https://github.com/pon/kappa-deploy",
+  "dependencies": {
+    "kappa": "^0.14.3"
+  }
 }
